@@ -6,3 +6,12 @@
 4. **Modifiez** la valeur associée à la clé `"pomme"` pour `"vert"`.
 5. **Supprimez** la clé `"banane"` du dictionnaire `fruits`.
 6. **Affichez** les clés restantes dans le dictionnaire.
+fruits ={}
+fruits["pomme"]  = "rouge"
+fruits["banane"] = "jaune"
+fruits["orange"] = "orange"
+fruits["kiwi"] = "vert"
+couleur_banane = fruits["banane"]
+fruits["pomme"]  = "vert"
+fruits.pop("banane")
+fruits.keys()
